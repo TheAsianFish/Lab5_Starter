@@ -12,7 +12,7 @@ function init() {
 
   audio.volume = volumeSlider.value / 100;
 
-  honrselect.addEventListener('change', () => {
+  hornSelect.addEventListener('change', () => {
     const horn = hornSelect.value;
     hornImage.src = `assets/images/${horn}.svg`;
     hornImage.alt = horn;
